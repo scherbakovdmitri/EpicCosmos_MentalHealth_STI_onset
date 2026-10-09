@@ -827,8 +827,3 @@ reverse_age <- make_age_figures(
 )
 ```
 
-## Verification
-
-The R analysis was rerun on the server on October 9, 2026, using the saved cohort and encounter extract. Both directions included 149,640 patients; the forward analysis had 59,312 first mental health events and the reverse analysis had 37,680 first STI testing events. Primary forest estimates agreed at manuscript precision, and the age-specific results reproduced the prior outputs. The tested Cairo PNG export fix is included.
-
-One manuscript rounding correction remains: the lower 95% confidence bound for the reverse within-female hazard ratio rounds to **1.626**, rather than 1.627.
